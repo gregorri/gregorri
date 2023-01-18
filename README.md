@@ -3,17 +3,11 @@
 # -*- coding: utf-8 -*-
 
 
-class SoftwareEngineer:
+def create_readme():
+    with open("README.md", "w") as f:
+        f.write("# My Project\n")
+        f.write("This is my project.\n")
 
-    def __init__(self):
-        self.name = "Zhenye Na"
-        self.role = "Software Engineer"
-        self.language_spoken = ["zh_CN", "en_US"]
-
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
-
-
-me = SoftwareEngineer()
-me.say_hi()
+if __name__ == "__main__":
+    create_readme()
 ```
