@@ -23,7 +23,8 @@ class AboutMe:
             for project in self.projects:
                 f.write(f"- {project}\n")
             f.write("# Contact\n")
-            f.write(f"Feel free to contact me at [email](mailto:{self.email}) or [LinkedIn](https://www.linkedin.com/in/{self.linkedin}/).\n")
+            f.write(f"Feel free to contact me at [email](mailto:{self.email}) or 
+            [LinkedIn](https://www.linkedin.com/in/{self.linkedin}/).\n")
 
 me = AboutMe("Usachi Grigore", "IT Technician", ["ro_RO", "it_IT", "ru_RU", "en_US"], "qgrisa@gmail.com", "gregurs")
 me.add_project("[Project 1](https://github.com/gregorri/comingsoon)")
